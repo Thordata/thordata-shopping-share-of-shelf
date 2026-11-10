@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-11-07T06:07:21.872Z",
+  "status": "passed",
+  "executionNodesUnchanged": true,
+  "connectionsUnchanged": true,
+  "mainRowPositionsUnchanged": true,
+  "overview": {
+    "color": 1,
+    "words": 245
+  },
+  "sections": [
+    {
+      "name": "Settings and History Guide",
+      "color": 7,
+      "words": 38
+    },
+    {
+      "name": "Search and Analysis Guide",
+      "color": 7,
+      "words": 41
+    },
+    {
+      "name": "Persistence and Delivery Guide",
+      "color": 7,
+      "words": 39
+    }
+  ],
+  "boundary": "Compared generated export against repository HEAD. Only node notes and sticky-note content/geometry/colors differ. This is a documentation check, not a new live integration run."
+}

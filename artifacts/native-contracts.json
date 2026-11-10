@@ -1,0 +1,9 @@
+{
+  "checkedAt": "2026-11-06T03:32:26.925Z",
+  "status": "passed",
+  "thordataVersion": "0.1.6",
+  "packageSource": "published npm 0.1.6 archive",
+  "nativeSearchSuccessAndError": true,
+  "nativeSheetsActions": 2,
+  "boundary": "Actual Thordata execute and native Google Sheets appendOrUpdate actions with injected fixture transport/context. No credentials or live service calls. Sheets transport completion and native keyed outputs are verified; this does not verify a live spreadsheet account."
+}

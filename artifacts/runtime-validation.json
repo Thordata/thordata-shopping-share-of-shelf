@@ -1,0 +1,214 @@
+{
+  "checkedAt": "2026-11-07T05:50:44.431Z",
+  "status": "passed",
+  "scenarios": [
+    {
+      "scenario": "first-run",
+      "status": "passed",
+      "execution": "success",
+      "counts": {
+        "searches": 2,
+        "model": 1,
+        "slack": 0
+      },
+      "cliExitCode": 0
+    },
+    {
+      "scenario": "changed",
+      "status": "passed",
+      "execution": "success",
+      "counts": {
+        "searches": 2,
+        "model": 1,
+        "slack": 1
+      },
+      "cliExitCode": 0
+    },
+    {
+      "scenario": "mixed",
+      "status": "passed",
+      "execution": "success",
+      "counts": {
+        "searches": 4,
+        "model": 1,
+        "slack": 1
+      },
+      "cliExitCode": 0
+    },
+    {
+      "scenario": "all-errors",
+      "status": "passed",
+      "execution": "failed_as_expected",
+      "counts": {
+        "searches": 2,
+        "model": 0,
+        "slack": 1
+      },
+      "cliExitCode": 1
+    },
+    {
+      "scenario": "history-error",
+      "status": "passed",
+      "execution": "failed_as_expected",
+      "counts": {
+        "searches": 0,
+        "model": 0,
+        "slack": 0
+      },
+      "cliExitCode": 1
+    },
+    {
+      "scenario": "product-history-error",
+      "status": "passed",
+      "execution": "failed_as_expected",
+      "counts": {
+        "searches": 0,
+        "model": 0,
+        "slack": 0
+      },
+      "cliExitCode": 1
+    },
+    {
+      "scenario": "empty",
+      "status": "passed",
+      "execution": "success",
+      "counts": {
+        "searches": 2,
+        "model": 0,
+        "slack": 1
+      },
+      "cliExitCode": 0
+    },
+    {
+      "scenario": "ai-disabled",
+      "status": "passed",
+      "execution": "success",
+      "counts": {
+        "searches": 2,
+        "model": 0,
+        "slack": 0
+      },
+      "cliExitCode": 0
+    },
+    {
+      "scenario": "ai-invalid",
+      "status": "passed",
+      "execution": "success",
+      "counts": {
+        "searches": 2,
+        "model": 1,
+        "slack": 1
+      },
+      "cliExitCode": 0
+    },
+    {
+      "scenario": "ai-error",
+      "status": "passed",
+      "execution": "success",
+      "counts": {
+        "searches": 2,
+        "model": 1,
+        "slack": 1
+      },
+      "cliExitCode": 0
+    },
+    {
+      "scenario": "product-save-error",
+      "status": "passed",
+      "execution": "failed_as_expected",
+      "counts": {
+        "searches": 2,
+        "model": 1,
+        "slack": 1
+      },
+      "cliExitCode": 1
+    },
+    {
+      "scenario": "metric-save-error",
+      "status": "passed",
+      "execution": "failed_as_expected",
+      "counts": {
+        "searches": 2,
+        "model": 1,
+        "slack": 1
+      },
+      "cliExitCode": 1
+    },
+    {
+      "scenario": "missing-ack",
+      "status": "passed",
+      "execution": "failed_as_expected",
+      "counts": {
+        "searches": 2,
+        "model": 1,
+        "slack": 1
+      },
+      "cliExitCode": 1
+    },
+    {
+      "scenario": "slack-error",
+      "status": "passed",
+      "execution": "failed_as_expected",
+      "counts": {
+        "searches": 2,
+        "model": 1,
+        "slack": 1
+      },
+      "cliExitCode": 1
+    },
+    {
+      "scenario": "reordered",
+      "status": "passed",
+      "execution": "success",
+      "counts": {
+        "searches": 2,
+        "model": 1,
+        "slack": 0
+      },
+      "cliExitCode": 0
+    },
+    {
+      "scenario": "omitted",
+      "status": "passed",
+      "execution": "success",
+      "counts": {
+        "searches": 2,
+        "model": 1,
+        "slack": 0
+      },
+      "cliExitCode": 0
+    },
+    {
+      "scenario": "gb-outside-shelf",
+      "status": "passed",
+      "execution": "success",
+      "counts": {
+        "searches": 2,
+        "model": 1,
+        "slack": 1
+      },
+      "cliExitCode": 0
+    },
+    {
+      "scenario": "no-change",
+      "status": "passed",
+      "execution": "success",
+      "counts": {
+        "searches": 2,
+        "model": 1,
+        "slack": 0
+      },
+      "cliExitCode": 0
+    }
+  ],
+  "boundary": "Real n8n CLI with isolated SQLite and original Code/IF/Set/HTML nodes and connections. External service nodes are replaced by expression-aware fixtures and the disconnected model removed. Native service schemas are checked separately. No live credentials or services; a preload blocks networking and listeners. This is not a live end-to-end service test.",
+  "runtime": {
+    "n8n": "1.97.1",
+    "nodesBase": "1.95.1",
+    "langchain": "1.96.1",
+    "node": "v20.17.0",
+    "thordataTarget": "0.1.6"
+  },
+  "fullSuite": true,
+  "temporaryDirectoryRemoved": true
+}

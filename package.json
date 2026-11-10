@@ -1,0 +1,15 @@
+{
+  "name": "thordata-shopping-share-of-shelf",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node scripts/build-workflow.mjs",
+    "test": "node scripts/run-unit-tests.mjs",
+    "validate": "node scripts/validate-workflow.mjs",
+    "test:runtime": "node scripts/test-n8n-runtime.mjs",
+    "test:native": "node scripts/check-native-contracts.mjs",
+    "sample": "node scripts/sample-report.mjs",
+    "test:live": "node scripts/live-user-simulation.mjs"
+  }
+}

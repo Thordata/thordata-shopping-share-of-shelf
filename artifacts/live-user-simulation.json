@@ -1,0 +1,178 @@
+{
+  "checkedAt": "2026-11-05T08:58:29.907Z",
+  "status": "passed",
+  "mode": "authorized live SERP plus offline workflow simulation",
+  "engine": "google_shopping",
+  "keyword": "wireless earbuds",
+  "market": {
+    "country": "us",
+    "language": "en",
+    "start": 0
+  },
+  "nativeNode": {
+    "packageVersion": "0.1.6",
+    "outputEnvelope": "passed",
+    "responseParser": "passed"
+  },
+  "upstream": {
+    "code": 200,
+    "cardsReceived": 40,
+    "validCards": 40,
+    "reportedCredits": 2,
+    "cacheStatus": false,
+    "responseId": "7VUQHD73N41Y1793869107"
+  },
+  "metrics": {
+    "collectionStatus": "success",
+    "shelfDepth": 20,
+    "shelfSeen": 20,
+    "shelfComplete": true,
+    "slotsHeld": 4,
+    "shareOfShelfPct": 20,
+    "targetObserved": true,
+    "bestPosition": 2,
+    "uniqueTargetProducts": 7,
+    "comparisonStatus": "baseline_created",
+    "competitors": [
+      {
+        "position": 1,
+        "product_id": "7310953537322941042",
+        "title": "JLab GO Air Pop True Wireless Earbuds",
+        "merchant": "Target",
+        "price_raw": "$14.99",
+        "price_value": 14.99,
+        "currency": "USD",
+        "link": "https://www.google.com/search?ibp=oshop&q=wireless+earbuds&prds=localAnnotatedOfferId:1,catalogid:7310953537322941042,gpcid:9146411353573113826,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
+        "relation": "above_target"
+      },
+      {
+        "position": 3,
+        "product_id": "3305493310583775721",
+        "title": "Probuds V2 True Wireless Bluetooth Earbuds with Charging Case",
+        "merchant": "Walmart",
+        "price_raw": "$19.98",
+        "price_value": 19.98,
+        "currency": "USD",
+        "link": "https://www.google.com/search?ibp=oshop&q=wireless+earbuds&prds=localAnnotatedOfferId:1,catalogid:3305493310583775721,gpcid:18114819286519977298,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
+        "relation": "top_observed_product"
+      },
+      {
+        "position": 4,
+        "product_id": "16406220612788342393",
+        "title": "Beats Solo Buds Wireless Earbuds",
+        "merchant": "Target",
+        "price_raw": "$69.99",
+        "price_value": 69.99,
+        "currency": "USD",
+        "link": "https://www.google.com/search?ibp=oshop&q=wireless+earbuds&prds=localAnnotatedOfferId:1,catalogid:16406220612788342393,gpcid:549048356659243400,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
+        "relation": "top_observed_product"
+      },
+      {
+        "position": 5,
+        "product_id": "11085646244968783947",
+        "title": "Skullcandy Dime Evo Wireless Earbuds",
+        "merchant": "DICK'S Sporting Goods",
+        "price_raw": "$49.99",
+        "price_value": 49.99,
+        "currency": "USD",
+        "link": "https://www.google.com/search?ibp=oshop&q=wireless+earbuds&prds=localAnnotatedOfferId:1,catalogid:11085646244968783947,gpcid:15024619050824272459,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
+        "relation": "top_observed_product"
+      },
+      {
+        "position": 6,
+        "product_id": "16520306444756065269",
+        "title": "JLab Go Air Sport True Wireless Earbuds",
+        "merchant": "Best Buy",
+        "price_raw": "$24.99",
+        "price_value": 24.99,
+        "currency": "USD",
+        "link": "https://www.google.com/search?ibp=oshop&q=wireless+earbuds&prds=localAnnotatedOfferId:1,catalogid:16520306444756065269,gpcid:14823241773140039338,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
+        "relation": "top_observed_product"
+      }
+    ]
+  },
+  "targetProducts": [
+    {
+      "position": 2,
+      "productId": "1749519698216963169",
+      "title": "JBL Vibe Beam 2 True Wireless Earbuds",
+      "merchant": "Best Buy",
+      "priceRaw": "$39.95",
+      "priceValue": 39.95,
+      "currency": "USD",
+      "link": "https://www.google.com/search?ibp=oshop&q=wireless+earbuds&prds=localAnnotatedOfferId:1,catalogid:1749519698216963169,gpcid:8634022229889090068,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2"
+    },
+    {
+      "position": 7,
+      "productId": "15008238774157370735",
+      "title": "JBL Vibe Buds 2 Noise Cancelling True Wireless Earbuds",
+      "merchant": "Target",
+      "priceRaw": "$64.99",
+      "priceValue": 64.99,
+      "currency": "USD",
+      "link": "https://www.google.com/search?ibp=oshop&q=wireless+earbuds&prds=localAnnotatedOfferId:1,catalogid:15008238774157370735,gpcid:18415526280809133228,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2"
+    },
+    {
+      "position": 16,
+      "productId": "2766942092770625067",
+      "title": "JBL Tune 245NC True Wireless Noise Cancelling Earbuds",
+      "merchant": "Best Buy",
+      "priceRaw": "$59.95",
+      "priceValue": 59.95,
+      "currency": "USD",
+      "link": "https://www.google.com/search?ibp=oshop&q=wireless+earbuds&prds=localAnnotatedOfferId:1,catalogid:2766942092770625067,gpcid:16265857440053998739,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2"
+    },
+    {
+      "position": 18,
+      "productId": "3033606187461191270",
+      "title": "JBL Live Beam 3 True Wireless Earbuds",
+      "merchant": "Smith's",
+      "priceRaw": "$229.99",
+      "priceValue": 229.99,
+      "currency": "USD",
+      "link": "https://www.google.com/search?ibp=oshop&q=wireless+earbuds&prds=localAnnotatedOfferId:1,catalogid:3033606187461191270,gpcid:17946588389693962120,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2"
+    },
+    {
+      "position": 29,
+      "productId": "10694224367759637585",
+      "title": "JBL Tune Flex 2 Noise Cancelling True Wireless Earbuds",
+      "merchant": "Best Buy",
+      "priceRaw": "$64.99",
+      "priceValue": 64.99,
+      "currency": "USD",
+      "link": "https://www.google.com/search?ibp=oshop&q=wireless+earbuds&prds=localAnnotatedOfferId:1,catalogid:10694224367759637585,gpcid:16184441560284362922,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2"
+    },
+    {
+      "position": 31,
+      "productId": "6397522680929215205",
+      "title": "JBL Endurance Race 2 True Wireless Earbuds",
+      "merchant": "Best Buy",
+      "priceRaw": "$89.95",
+      "priceValue": 89.95,
+      "currency": "USD",
+      "link": "https://www.google.com/search?ibp=oshop&q=wireless+earbuds&prds=localAnnotatedOfferId:1,catalogid:6397522680929215205,gpcid:17678624745629179640,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2"
+    },
+    {
+      "position": 35,
+      "productId": "17603554536715119671",
+      "title": "JBL Endurance Peak 4 True Wireless Noise Cancelling Sport Earbuds",
+      "merchant": "Ace Hardware",
+      "priceRaw": "$129.99",
+      "priceValue": 129.99,
+      "currency": "USD",
+      "link": "https://www.google.com/search?ibp=oshop&q=wireless+earbuds&prds=localAnnotatedOfferId:1,catalogid:17603554536715119671,gpcid:5741162894802186728,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2"
+    }
+  ],
+  "report": {
+    "analysisStatus": "disabled",
+    "productSaveStatus": "pending",
+    "metricSaveStatus": "pending",
+    "htmlPath": "artifacts/live-user-simulation-report.html"
+  },
+  "externalWrites": {
+    "googleSheets": false,
+    "openai": false,
+    "slack": false
+  },
+  "tokenPersisted": false
+}
